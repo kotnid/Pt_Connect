@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <main>
+        <div class="score" style="display:none;">
+            <p>Your time : <div class="time"></div></p>
+            <p>enter your name</p>
+            <input id="name">
+            <button onclick="submit()">submit</button>
+        </div>
+        <div class="leaderboard" style="display:none;">
+            <button onclick="submit2()">back</button></div>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-firestore.js"></script>
+  </body>
+</html>
